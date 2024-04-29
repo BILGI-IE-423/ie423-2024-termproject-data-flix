@@ -27,8 +27,15 @@ In the vast landscape of entertainment, the influence of cast and directors on t
 - GitHub for version control and collaboration.
 - Markdown for documentation and reporting.
 
+## Data Sets
+1. **Netflix and IMDb Scores Dataset:** This dataset contains specific TV shows and movies available on Netflix along with their IMDb scores. [Netflix and IMDb Scores Dataset](https://www.kaggle.com/datasets/thedevastator/netflix-imdb-scores)
+
+2. **Netflix TV Shows Dataset:** This dataset provides information about various TV shows available on Netflix. [Netflix TV Shows Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+
+These datasets will serve as the primary sources of data for development and analysis in the project.
+
 ## Deliverables
-1. **README.md:** Detailed project overview, objectives, methodology, and technologies used.
+1. **README.md:** Detailed project overview, objectives, methodology, technologies used, and data sets.
 2. **Dataset:** Cleaned and preprocessed dataset used for model development.
 3. **Jupyter Notebooks:** Codebase containing data analysis, model development, and evaluation.
 4. **Report:** Comprehensive report documenting findings, insights, and conclusions drawn from the project.
