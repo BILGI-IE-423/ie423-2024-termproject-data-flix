@@ -12,7 +12,9 @@ This project's main goal is to investigate the connection between particular act
 ## Description of Data
 
 We'll utilize two primary datasets:
+
 Netflix Titles: This dataset includes all the information you need to know about the films and TV series that are accessible on Netflix, including actor lists, director credits, and release dates.
+
 IMDb Movies: This dataset offers details on a large number of films, enhanced with data on revenue and IMDb ratings.
 
 ## Effect
