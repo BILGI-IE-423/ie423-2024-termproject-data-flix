@@ -75,24 +75,25 @@ IMDb top 1000 movies with series titles and gross earnings (imdb_top_1000.csv)
 
  - Document the findings and develop a communicative report with visualizations and interpretations.
 
+``` mermaid
 gantt
     dateFormat  YYYY-MM-DD
     title Machine Learning Project Gantt Chart
 
     section Project Phases
-    Data Set Review                          :done, dsr, 2024-03-03, 2024-03-08
-    Additional Data Set                      :done, ads, 2024-03-05, 2024-03-08
-    Determine the research question          :done, drq, 2024-03-07, 2024-03-17
-    Handling Missing Data                    :done, hmd, 2024-04-15, 2024-04-18
-    Merge Data Sets                          :done, mds, 2024-04-15, 2024-04-20
-    Selection of algorithms                  :done, soa, 2024-04-30, 2024-05-08
-    Model Determination                      :done, mod, 2024-05-03, 2024-05-07
-    Model training                           :done, mot, 2024-05-05, 2024-05-15
-    Model testing                            :done, mot2, 2024-05-18, 2024-05-28
-    Model Evaluation                         :done, moe, 2024-05-20, 2024-05-27
-    Designing                                :active, des, 2024-06-01, 2024-06-07
-    Coding                                   :crit, cod, 2024-06-10, 2024-06-14
-
+    Data Set Review                        :done, dsr, 2024-03-03, 2024-03-08
+    Additional Data Set                    :done, ads, 2024-03-05, 2024-03-08
+    Determine the Research Question        :done, drq, 2024-03-07, 2024-03-17
+    Handling Missing Data                  :done, hmd, 2024-04-15, 2024-04-18
+    Merge Data Sets                        :done, mds, 2024-04-15, 2024-04-20
+    Selection of Algorithms                :done, soa, 2024-04-30, 2024-05-08
+    Model Determination                    :done, mod, 2024-05-03, 2024-05-07
+    Model Training                         :done, mot, 2024-05-05, 2024-05-15
+    Model Testing                          :done, mot2, 2024-05-18, 2024-05-28
+    Model Evaluation                       :done, moe, 2024-05-20, 2024-05-27
+    Designing                              :active, des, 2024-06-01, 2024-06-07
+    Coding                                 :crit, cod, 2024-06-10, 2024-06-14
+```
 
 ## Contributors:
  Duygu Pınar Özer - 121203030
