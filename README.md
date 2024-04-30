@@ -8,14 +8,15 @@ This initiative aims to provide insights that can help creators and distributors
 ## Overview
 This research proposal outlines a study aimed at predicting viewer ratings for movies and TV shows on Netflix. The prediction is based on certain features such as director reputation, gross income from previous works, and genre classifications. The core hypothesis is that these features significantly influence viewer ratings and can be used to construct a predictive model.
 
-## Research Question
+## Research Questions
 We aim to answer the following research question:
 
-Can we predict viewer ratings for movies and TV shows on Netflix using features such as director reputation (IMDb ratings and gross income) and genre classifications?
+ - Can we predict viewer ratings for movies and TV shows on Netflix using features such as director reputation (IMDb ratings and gross income) and genre classifications?
+
+ - What is the impact of a particular cast or director on the success (IMDB score, gross) of the film/series?
 This question was chosen because:
 
-Director reputation and genre classification are believed to be strong indicators of a title's success and viewer ratings.
-Understanding these relationships can help Netflix curate and recommend content more effectively.
+Director reputation and genre classification are believed to be strong indicators of a title's success and viewer ratings.Understanding these relationships can help Netflix curate and recommend content more effectively.It can also provide content producers and distributors with the information they need to make strategic decisions by determining the impact actors and directors have on the success of films and series.
 
 ## Expected Outcomes
 The study is expected to reveal the impact of director reputation and genre on viewer ratings.
@@ -28,7 +29,7 @@ A predictive model will be developed to forecast viewer ratings with reasonable 
 
 - Select appropriate machine learning algorithms for the prediction task.
 
--Train and evaluate the predictive model using cross-validation and grid search for hyperparameter tuning.
+- Train and evaluate the predictive model using cross-validation and grid search for hyperparameter tuning.
 
 - Document the findings and develop a communicative report with visualizations and interpretations.
 
