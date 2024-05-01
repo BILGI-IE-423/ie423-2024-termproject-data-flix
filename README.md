@@ -55,7 +55,7 @@ IMDb top 1000 movies with series titles and gross earnings (imdb_top_1000.csv)
  - Filled missing 'Cast' entries with the most common cast member.
  - Converted 'Gross' to floats after removing commas, and filled missing values with the median gross income.
 
-3. **Data Transformation and Anaylze:**
+3. **Data Transformation and Analysis:**
  - Renamed columns to have title casing.
  - Checked for and addressed duplicate rows.
  - Exploratory Data Analysis (EDA)
