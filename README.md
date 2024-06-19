@@ -193,16 +193,6 @@ Gross:
 
 MSE: 4.195 × 10¹²
 For Gross predictions, SVR performed poorly, with an MSE value similar to the Ridge regression. A high MSE value indicates that the model has difficulty understanding the complexity of the data set.
-5.LOGICTIC REGRESSION
-Accuracy: 0.94
-              precision    recall  f1-score   support
-
-           0       0.90      0.59      0.71        63
-           1       0.94      0.99      0.97       433
-
-    accuracy                           0.94       496
-   macro avg       0.92      0.79      0.84       496
-weighted avg       0.94      0.94      0.93       496
 
 
 Modeling
