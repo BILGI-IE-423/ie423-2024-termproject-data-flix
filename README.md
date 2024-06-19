@@ -95,10 +95,12 @@ Genres of films are evaluated differently by audiences and critics. The boxplot 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/72386773-c64b-48de-ba21-124ba27d37b6)
 
 
-3.IMDB- DIRECTOR
+3.**IMDb Achievements of Directors:**
+Directors' contribution to film quality is greatly important. The chart below shows the top ten directors and their average scores based on IMDb scores. It is seen that these directors generally produce high-rated films.IMDB- DIRECTOR
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/a2616208-6025-4478-8731-4dbee4480307)
 
-4-IMDB- GROSS INCOME
+4.**IMDb Ratings and Gross Revenue:**
+One of the ways to measure the success of a movie is by its gross revenue. We can examine how IMDb scores relate to gross income with the chart below. This analysis shows that higher IMDb scores are generally associated with higher income.
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/bcbd3ae4-6079-4582-8803-04b6b5d349df)
 
@@ -122,8 +124,71 @@ Genres of films are evaluated differently by audiences and critics. The boxplot 
 
 10-GROSS INCOME TOP TEN DIRECTOR
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/ddce9b1e-378f-4b13-befa-1e8bf403ed02)
+## Conclusion and Future Trends:
+This analysis helped us better understand the dynamics of the film industry. IMDb scores appear to correlate with higher revenues and certain directors play an important role in success. Such analyzes are of great importance in predicting the success of future films.
 
+## Suggestions:
+High IMDb scores and working with popular directors can increase movies' revenues.
+Choosing a movie genre by taking into account income differences between genres can support financial success.
+Keeping analyzes up to date with changing audience preferences in the film industry is critical to developing successful projects.
 
+## Performance Analysis and Comparison of Machine Learning Models
+I evaluated the results of your analyzes using various machine learning models for Gross (gross income) and IMDb Score predictions in your project. I commented on the performance and suitability of each model in detail. Here is the analysis and results:
+
+1. **Ridge Regression:**
+IMDb Score:
+
+Mean Squared Error (MSE): 0.246
+Ridge regression performed quite well in IMDb score predictions. A low MSE value indicates that the model's predictions are quite accurate.
+Gross:
+
+MSE: 4.571 × 10¹²
+The MSE value of the Ridge regression for the gross estimates is quite high. This shows that the model exhibits large deviations and has difficulty coping with the Gross data.
+General Comment:
+
+Ridge regression can be an effective option for IMDb score predictions, but it is not sufficient for Gross predictions. Especially the high MSE value shows that the model is not suitable for this data set.
+
+2. **Gradient Boosting Regression:**
+IMDb Score:
+
+MSE: 0.246
+Gradient Boosting performs similar to Ridge regression in IMDb score predictions. This model can learn the complexity in the dataset well.
+Gross:
+
+MSE: 2,560
+For Gross predictions, Gradient Boosting performed best with a very low MSE value. This model can make effective predictions even on complex and large data sets.
+General Comment:
+
+Gradient Boosting stands out as the most successful model for both IMDb score and Gross predictions. It performs better than other models, especially on Gross data.
+
+3. **Linear Regression:**
+IMDb Score:
+
+MSE: 3.911 × 10²⁶
+Linear regression performed poorly in IMDb score predictions, with a very large MSE value. This model struggles to capture the nonlinear nature of the data.
+Gross:
+
+MSE: 3.276 × 10²⁷
+For Gross predictions, Linear regression performed the worst, with a very large MSE value, as did IMDb score predictions. This shows that the model fails to understand the complexity of the data.
+General Comment:
+
+Linear regression is not a suitable model for both IMDb score and Gross predictions. Large MSE values ​​indicate that the model cannot cope with the dataset.
+
+4. **Support Vector Regression (SVR):**
+IMDb Score:
+
+MSE: 0.251
+SVR shows similar performance in IMDb score predictions. The MSE value is comparable to other successful models.
+Gross:
+
+MSE: 4.195 × 10¹²
+For Gross predictions, SVR performed poorly, with an MSE value similar to the Ridge regression. A high MSE value indicates that the model has difficulty understanding the complexity of the data set.
+
+## General Comment:
+
+While SVR performs adequately for IMDb score predictions, it is not suitable for Gross predictions. The model fails on Gross data because it shows large deviations.
+General evaluation:
+The best performing model was Gradient Boosting Regression. It was able to best learn the complexity of the dataset with low MSE values ​​in both IMDb score and Gross predictions. While Ridge regression performed well for the IMDb score, it was not sufficient for the Gross data. Linear regression failed both predictions because it failed to capture nonlinear relationships in the data set. While SVR performed adequately for the IMDb score, Gross failed in his predictions.
 
 
 ``` mermaid
