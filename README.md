@@ -76,9 +76,12 @@ IMDb top 1000 movies with series titles and gross earnings (imdb_top_1000.csv)
  - Document the findings and develop a communicative report with visualizations and interpretations.
     ## DATASTORYTELLING:
    The film industry has undergone great changes over time. With the rise of digital platforms, movies can be watched not only in the cinema but also in our homes. This transformation also affected the income sources and success criteria of films. In this project, we aim to better understand the dynamics of the film industry by examining the IMDb scores of certain actors and directors and their impact on the revenues of films.
+
+ 
    ## Data Analysis: Correlation Between IMDb and TMDB Scores
 
 The scatter plot below illustrates the correlation between IMDb and TMDB scores for various movies. The plot helps to visualize the relationship between these two popular movie rating platforms.
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/1a7838d8-6d1f-46b7-b007-35e3187d14f6)
 
 
 
