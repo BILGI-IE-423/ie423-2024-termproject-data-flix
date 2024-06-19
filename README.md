@@ -133,7 +133,7 @@ Choosing a movie genre by taking into account income differences between genres 
 Keeping analyzes up to date with changing audience preferences in the film industry is critical to developing successful projects.
 
 ## Performance Analysis and Comparison of Machine Learning Models
-I evaluated the results of your analyzes using various machine learning models for Gross (gross income) and IMDb Score predictions in your project. I commented on the performance and suitability of each model in detail. Here is the analysis and results:
+We evaluated the resultsusing various machine learning models for Gross (gross income) and IMDb Score predictions in your project. We commented on the performance and suitability of each model in detail. Here is the analysis and results:
 
 1. **Ridge Regression:**
 IMDb Score:
@@ -170,6 +170,7 @@ Gross:
 
 MSE: 3.276 × 10²⁷
 For Gross predictions, Linear regression performed the worst, with a very large MSE value, as did IMDb score predictions. This shows that the model fails to understand the complexity of the data.
+
 General Comment:
 
 Linear regression is not a suitable model for both IMDb score and Gross predictions. Large MSE values ​​indicate that the model cannot cope with the dataset.
