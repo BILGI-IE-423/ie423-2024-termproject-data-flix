@@ -79,7 +79,7 @@ IMDb top 1000 movies with series titles and gross earnings (imdb_top_1000.csv)
 
  
    ## Data Analysis: Correlation Between IMDb and TMDB Scores
-
+2.  **IMDb and TMDB Scores::**
 The scatter plot below illustrates the correlation between IMDb and TMDB scores for various movies. The plot helps to visualize the relationship between these two popular movie rating platforms.
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/1a7838d8-6d1f-46b7-b007-35e3187d14f6)
 
@@ -87,9 +87,6 @@ The scatter plot below illustrates the correlation between IMDb and TMDB scores 
 
 *Figure 2.9: Correlation Between IMDb and TMDB Scores*
 
-2.  **Journey with Data:**
-2.1. IMDb and TMDB Scores:
-IMDb and TMDB are the two platforms most frequently used by movie viewers. It might be interesting to see how the scores of these two platforms relate to each other. In the chart below you can find an analysis of how compatible these two scoring systems are.
 
 ``` mermaid
 gantt
