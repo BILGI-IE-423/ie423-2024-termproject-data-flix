@@ -104,25 +104,25 @@ One of the ways to measure the success of a movie is by its gross revenue. We ca
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/bcbd3ae4-6079-4582-8803-04b6b5d349df)
 
-5-BOXPLOT GROSS INCOME
+5-BOXPLOT GROSS INCOME:
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/af45c1e8-a85d-4795-9426-25d9521a29da)
 
-6-BOXPLOT IMDB
+6-BOXPLOT IMDB:
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/83d827f4-8dd0-4e87-9f4c-d6a7efe9cf7d)
 
-7- IMDB OUTLIER TREATMENT
+7- IMDB OUTLIER TREATMENT:
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/ee20fe67-75fb-4654-b344-8383eacfef2f)
 
-8-GROSS INCOME OUTLIER TREATMENT
+8-GROSS INCOME OUTLIER TREATMENT:
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/0deb5063-3969-4cdc-a08a-5649151cebd7)
 
-9-DISTRIBUTION GROSS INCOME
+9-DISTRIBUTION GROSS INCOME:
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/fc08d9ef-ef7c-4bf0-8ce5-52411b6142b1)
 
-9-DISTRIBUTION IMDB
+9-DISTRIBUTION IMDB:
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/53cc696e-1587-418f-8c6c-5986b65f9be4)
 
-10-GROSS INCOME TOP TEN DIRECTOR
+10-GROSS INCOME TOP TEN DIRECTOR:
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/ddce9b1e-378f-4b13-befa-1e8bf403ed02)
 ## Conclusion and Future Trends:
 This analysis helped us better understand the dynamics of the film industry. IMDb scores appear to correlate with higher revenues and certain directors play an important role in success. Such analyzes are of great importance in predicting the success of future films.
