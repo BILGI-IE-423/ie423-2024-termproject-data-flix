@@ -94,6 +94,37 @@ Genres of films are evaluated differently by audiences and critics. The boxplot 
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/72386773-c64b-48de-ba21-124ba27d37b6)
 
+
+3.IMDB- DIRECTOR
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/a2616208-6025-4478-8731-4dbee4480307)
+
+4-IMDB- GROSS INCOME
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/bcbd3ae4-6079-4582-8803-04b6b5d349df)
+
+5-BOXPLOT GROSS INCOME
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/af45c1e8-a85d-4795-9426-25d9521a29da)
+
+6-BOXPLOT IMDB
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/83d827f4-8dd0-4e87-9f4c-d6a7efe9cf7d)
+
+7- IMDB OUTLIER TREATMENT
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/ee20fe67-75fb-4654-b344-8383eacfef2f)
+
+8-GROSS INCOME OUTLIER TREATMENT
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/0deb5063-3969-4cdc-a08a-5649151cebd7)
+
+9-DISTRIBUTION GROSS INCOME
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/fc08d9ef-ef7c-4bf0-8ce5-52411b6142b1)
+
+9-DISTRIBUTION IMDB
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/53cc696e-1587-418f-8c6c-5986b65f9be4)
+
+10-GROSS INCOME TOP TEN DIRECTOR
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/ddce9b1e-378f-4b13-befa-1e8bf403ed02)
+
+
+
+
 ``` mermaid
 gantt
     dateFormat  YYYY-MM-DD
