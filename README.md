@@ -78,8 +78,9 @@ IMDb top 1000 movies with series titles and gross earnings (imdb_top_1000.csv)
    The film industry has undergone great changes over time. With the rise of digital platforms, movies can be watched not only in the cinema but also in our homes. This transformation also affected the income sources and success criteria of films. In this project, we aim to better understand the dynamics of the film industry by examining the IMDb scores of certain actors and directors and their impact on the revenues of films.
 
  
-   ## Data Analysis: Correlation Between IMDb and TMDB Scores
-2.  **IMDb and TMDB Scores::**
+   ## Data Analysis:
+   Correlation Between IMDb and TMDB Scores
+1.  **IMDb and TMDB Scores::**
 The scatter plot below illustrates the correlation between IMDb and TMDB scores for various movies. The plot helps to visualize the relationship between these two popular movie rating platforms.
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/1a7838d8-6d1f-46b7-b007-35e3187d14f6)
 
@@ -87,6 +88,9 @@ The scatter plot below illustrates the correlation between IMDb and TMDB scores 
 
 *Figure 2.9: Correlation Between IMDb and TMDB Scores*
 
+
+2.  **IMDb Scores by Genres:**
+Genres of films are evaluated differently by audiences and critics. The boxplot below shows IMDb scores according to the most popular movie genres. You may find that dramatic and crime movies generally score higher.
 
 ``` mermaid
 gantt
