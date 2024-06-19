@@ -133,6 +133,15 @@ Choosing a movie genre by taking into account income differences between genres 
 Keeping analyzes up to date with changing audience preferences in the film industry is critical to developing successful projects.
 
 ## Performance Analysis and Comparison of Machine Learning Models
+
+
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/4a5f1bb0-8f70-4a8f-a710-d749b30b9b28)
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/df6c5921-c4a4-4222-b55d-5b98e276479a)
+
+
+
+
+
 We evaluated the resultsusing various machine learning models for Gross (gross income) and IMDb Score predictions in your project. We commented on the performance and suitability of each model in detail. Here is the analysis and results:
 
 1. **Ridge Regression:**
@@ -184,6 +193,17 @@ Gross:
 
 MSE: 4.195 × 10¹²
 For Gross predictions, SVR performed poorly, with an MSE value similar to the Ridge regression. A high MSE value indicates that the model has difficulty understanding the complexity of the data set.
+5.LOGICTIC REGRESSION
+Accuracy: 0.94
+              precision    recall  f1-score   support
+
+           0       0.90      0.59      0.71        63
+           1       0.94      0.99      0.97       433
+
+    accuracy                           0.94       496
+   macro avg       0.92      0.79      0.84       496
+weighted avg       0.94      0.94      0.93       496
+
 
 ## General Comment:
 
