@@ -99,6 +99,7 @@ Genres of films are evaluated differently by audiences and critics. The boxplot 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/a2616208-6025-4478-8731-4dbee4480307)
 
 4-IMDB- GROSS INCOME
+
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/bcbd3ae4-6079-4582-8803-04b6b5d349df)
 
 5-BOXPLOT GROSS INCOME
