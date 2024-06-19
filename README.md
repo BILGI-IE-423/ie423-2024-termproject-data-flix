@@ -92,6 +92,8 @@ The scatter plot below illustrates the correlation between IMDb and TMDB scores 
 2.  **IMDb Scores by Genres:**
 Genres of films are evaluated differently by audiences and critics. The boxplot below shows IMDb scores according to the most popular movie genres. You may find that dramatic and crime movies generally score higher.
 
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-data-flix/assets/167989775/72386773-c64b-48de-ba21-124ba27d37b6)
+
 ``` mermaid
 gantt
     dateFormat  YYYY-MM-DD
