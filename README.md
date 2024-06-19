@@ -195,13 +195,13 @@ MSE: 4.195 × 10¹²
 For Gross predictions, SVR performed poorly, with an MSE value similar to the Ridge regression. A high MSE value indicates that the model has difficulty understanding the complexity of the data set.
 
 
-Modeling
+## Modeling explanation
 
-Preprocessing
+**Preprocessing**
 Numeric Features: We standardized numerical features using StandardScaler to normalize the distribution. Standardizing improves the convergence of the model by ensuring that each feature contributes equally to the model's predictions.
 Categorical Features: One-hot encoded categorical features were transformed into a format suitable for machine learning algorithms.
 
-Linear Regression Model
+**Linear Regression Model**
 
 Aim: To predict IMDb scores based on director and actor popularity indices and other relevant features.
 Pipeline Creation: A pipeline was created consisting of a preprocessor for handling transformations and a linear regressor. The pipeline streamlined the preprocessing and modeling steps, ensuring that all transformations were consistently applied.
@@ -209,7 +209,7 @@ Training: The model was trained using the training dataset.
 Evaluation: The model's performance was evaluated using metrics like Mean Squared Error (MSE) and R2 Score. MSE measures the average squared difference between the predicted and actual values, while R2 Score indicates the proportion of variance explained by the model.
 
 
-Random Forest Regressor
+**Random Forest Regressor**
 
 Aim: To predict popularity indices, which are crucial features in our dataset.
 Complex Preprocessing: The RandomForest algorithm can handle various data types, so only basic encoding and scaling were applied.
@@ -217,7 +217,7 @@ Hyperparameter Tuning: We utilized GridSearchCV to find the optimal settings for
 Training and Testing: The model was trained on the training set, and predictions were made on the testing set.
 Evaluation: The performance was assessed using MSE and R2 Score. Additionally, results were visualized to compare predicted and actual values, providing insights into the model's accuracy and potential areas for improvement.
 
-Visualization
+**Visualization**
 We visualized the results of our models to better understand their performance. Scatter plots comparing actual vs. predicted IMDb scores and popularity indices were created to highlight the model's predictive accuracy. These visualizations helped identify any patterns or discrepancies in the predictions, guiding further refinements.
 
 By following these detailed steps in feature engineering and modeling, we aimed to build robust models capable of accurately predicting viewer ratings for movies and TV shows on Netflix.
@@ -227,6 +227,7 @@ By following these detailed steps in feature engineering and modeling, we aimed 
 While SVR performs adequately for IMDb score predictions, it is not suitable for Gross predictions. The model fails on Gross data because it shows large deviations.
 General evaluation:
 The best performing model was Gradient Boosting Regression. It was able to best learn the complexity of the dataset with low MSE values ​​in both IMDb score and Gross predictions. While Ridge regression performed well for the IMDb score, it was not sufficient for the Gross data. Linear regression failed both predictions because it failed to capture nonlinear relationships in the data set. While SVR performed adequately for the IMDb score, Gross failed in his predictions.
+
 
 
 ``` mermaid
